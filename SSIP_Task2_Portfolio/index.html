@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://logos.textgiraffe.com/logos/logo-name/36595749-designstyle-bazinga-l.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="https://logos.textgiraffe.com/logos/logo-name/36595749-designstyle-healthy-l.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="content">
+                <h1>Hi, I'm <span>John Doe</span></h1>
+                <p>Web Designer & Developer</p>
+                <a href="assets/resume.pdf" download><button>Download CV</button></a>
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="1">
+            </div>
+        </section>
+        <section id="about">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>I am a passionate web designer and developer with several years of experience in creating modern and
+                    user-friendly websites. I specialize in front-end development using HTML, CSS, and JavaScript.</p>
+                <p>Throughout my career, I have worked on various projects, ranging from small business websites to
+                    large-scale web applications. I have a strong eye for design and strive to create visually appealing
+                    and intuitive interfaces.</p>
+                <p>In addition to my technical skills, I am a great team player and enjoy collaborating with others to
+                    bring ideas to life. I am constantly learning and staying up-to-date with the latest web development
+                    trends and technologies.</p>
+                <p>If you have any questions or would like to discuss a potential project, feel free to reach out to me.
+                    I am always excited to take on new challenges and create amazing web experiences.</p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="content">
+                <h2>Portfolio</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYiUyMHNpdGV8ZW58MHx8MHx8fDA%3D"
+                            alt="Project 1">
+                        <h3>Website Redesign</h3>
+                        <p>We redesigned the website for a local business, focusing on improving user experience and
+                            modernizing the design.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww"
+                            alt="Project 2">
+                        <h3>E-commerce Store</h3>
+                        <p>We developed an e-commerce store for a client, integrating payment gateways and a
+                            user-friendly shopping cart system.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Project 3">
+                        <h3>Mobile App Development</h3>
+                        <p>We created a mobile app for a startup, implementing features such as push notifications and
+                            real-time data synchronization.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1683288537199-3a102f1a3959?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3B0aW1pemF0aW9ufGVufDB8fDB8fHww"
+                            alt="Project 4">
+                        <h3>Website Optimization</h3>
+                        <p>We optimized the website for a client, improving page load speed and increasing conversion
+                            rates.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <div class="content">
+                <h2>Contact</h2>
+                <form id="contact-form" action="submit-form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="left">
+                    <p>© 2022 All rights reserved. Designed by <span>John Doe</span></p>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="https://www.facebook.com/mfaeezshabbir">Facebook</a></li>
+                        <li><a href="https://twitter.com/mfaeezshabbir">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
